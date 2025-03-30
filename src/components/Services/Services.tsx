@@ -1,7 +1,8 @@
+"use client";
 import Navigation from "../Navigation/Navigation";
 import MessageButton from "../Message/MessageButton";
 import FooterSection from "../FooterSection/FooterSection";
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ServicePackages from "./servicepackage";
 const serviceCategories = [
   {
@@ -138,8 +139,8 @@ const Services = () => {
             className="absolute top-[80px] left-[195px] w-20 h-20"
             alt="Plus"
           />
-          UNLEASH <span className="text-[#FF2FD2]">CREATIVITY</span>, BUILD ICONIC{" "}
-          <span className="text-[#FF2FD2]">BRANDS</span>
+          UNLEASH <span className="text-[#FF2FD2]">CREATIVITY</span>, BUILD
+          ICONIC <span className="text-[#FF2FD2]">BRANDS</span>
         </h1>
         <p className="mt-4 text-white max-w-2xl">
           Transform your brand with DigiZinc's powerhouse of creative services.
@@ -167,10 +168,10 @@ const Services = () => {
 
       {/* Service Boxes */}
       <img
-          src="/square.png"
-          className="absolute top-[320px] left-[100px] w-20 h-20"
-          alt="Moon"
-        />
+        src="/square.png"
+        className="absolute top-[320px] left-[100px] w-20 h-20"
+        alt="Moon"
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-8 max-w-6xl mx-auto">
         {serviceCategories.map((category, index) => (
           <div
