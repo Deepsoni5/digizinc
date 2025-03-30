@@ -1,4 +1,3 @@
-"use client";
 import Navigation from "../Navigation/Navigation";
 import MessageButton from "../Message/MessageButton";
 import FooterSection from "../FooterSection/FooterSection";
